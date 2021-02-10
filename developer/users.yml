@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: users
+  redis:
+    host: localhost
+    password:
+    port: 6379
+    session:
+      store-type: redis
+      redis:
+        flush-mode: on_save
+        namespace: spring:session
+server:
+  port: 8081
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
