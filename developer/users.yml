@@ -14,7 +14,7 @@ spring:
     host: localhost
     username: test
     password: "test"
-    port: 15672
+    port: 5672
 server:
   port: 8081
 eureka:
