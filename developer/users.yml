@@ -10,6 +10,11 @@ spring:
       redis:
         flush-mode: on_save
         namespace: spring:session
+  rabbitmq:
+    host: localhost
+    username: user
+    password: "bitnami"
+    port: 5672
 server:
   port: 8081
 eureka:
