@@ -12,9 +12,9 @@ spring:
         namespace: spring:session
   rabbitmq:
     host: localhost
-    username: user
-    password: "bitnami"
-    port: 5672
+    username: test
+    password: "test"
+    port: 15672
 server:
   port: 8081
 eureka:
